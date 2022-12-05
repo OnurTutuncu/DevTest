@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="styles/bootstrap.min.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="sidebar close">
+      <header>
+        <div class="image-text">
+          <span class="image">
+            <img
+              src="images/Dev-Test.png"
+              alt="Dev-Test logo"
+              style="height: 100%; width: 100%; padding: 10px"
+            />
+          </span>
+        </div>
+
+        <i class="bx bx-chevron-right toggle"></i>
+      </header>
+
+      <div class="menu-bar">
+        <div class="menu m-0">
+          <ul class="menu-links p-0">
+            <li class="nav-link p-0">
+              <a href="#">
+                <i class="bx bx-home-alt icon"></i>
+                <span class="text nav-text">Ana Sayfa</span>
+              </a>
+            </li>
+
+            <li class="nav-link p-0">
+              <a href="#">
+                <i class="bx bx-bar-chart-alt-2 icon"></i>
+                <span class="text nav-text">Kazanımlar</span>
+              </a>
+            </li>
+
+            <li class="nav-link p-0">
+              <a href="#">
+                <i class="bx bx-bell icon"></i>
+                <span class="text nav-text">Bildirimler</span>
+              </a>
+            </li>
+
+            <li class="nav-link p-0">
+              <a href="#">
+                <i class="bx bx-pie-chart-alt icon"></i>
+                <span class="text nav-text">İstatistikler</span>
+              </a>
+            </li>
+            <li class="search-box">
+              <i class="bx bx-search icon"></i>
+              <input type="text" placeholder="Arama..." />
+            </li>
+          </ul>
+        </div>
+
+        <div class="bottom-content p-0">
+          <li class="">
+            <a href="index.html">
+              <i class="bx bx-log-out icon"></i>
+              <span class="text nav-text">Çıkış yap</span>
+            </a>
+          </li>
+
+          <li class="mode">
+            <div class="sun-moon">
+              <i class="bx bx-moon icon moon"></i>
+              <i class="bx bx-sun icon sun"></i>
+            </div>
+            <span class="mode-text text">Gece Modu</span>
+            <div class="toggle-switch">
+              <span class="switch"></span>
+            </div>
+          </li>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home">
+      <div class="row mx-3">
+        <div class="row py-2 px-3">
+          <div class="col-md-6 px-5">
+            <h2
+              class="display-5 text-start"
+              style="color: rgba(43, 43, 43, 0.856)"
+            >
+              Html Kursu
+            </h2>
+          </div>
+        </div>
+        <div class="row mx-4 my-3">
+          <div class="accordion" id="accordionPanelsStayOpenExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                <button
+                  class="accordion-button fs-4"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#panelsStayOpen-collapseOne"
+                  aria-expanded="true"
+                  aria-controls="panelsStayOpen-collapseOne"
+                >
+                  Tamamlanmış Dersler
+                </button>
+              </h2>
+              <div
+                id="panelsStayOpen-collapseOne"
+                class="accordion-collapse collapse show"
+                aria-labelledby="panelsStayOpen-headingOne"
+              >
+                <div class="accordion-body">
+                  <div class="card w-100">
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 1 - HTML'ye Giriş ve HTML
+                        Etiketleri
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 2 - font, h Etiketleri ve Renk
+                        Kodlarıyla Çalışma
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 3 - img, ol, ul, li Etiketleri
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 4 - ol, ul, li Etiketleri ile
+                        Lokanta Menüsü Yapımı
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 5 - a Etiketi ile Sayfa Dışı ve
+                        Sayfa İçi link
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 6 - table, tr, td Etiketleri ile
+                        Tablo Oluşturma
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 7 - table, tr, td Etiketleri ile
+                        Sınıf Listesi Yapımı
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 8 - table, tr, td Etiketleri ile
+                        Ana Sayfa Yapımı - 1
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                      <li
+                        class="list-group-item d-flex align-items-center flex-row justify-content-between"
+                      >
+                        HTML Dersleri - Ders 9 - table, tr, td Etiketleri ile
+                        Ana Sayfa Yapımı - 2
+                        <span class="icon">
+                          <i
+                            class="bx bx-check bx-sm text-success"
+                          ></i>
+                        </span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row mx-4 my-3">
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button fs-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Tamamlanmamış Dersler
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <div class="card w-100">
+                    <ul class="list-group list-group-flush">
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                        <a href="" class="textdeco-none">HTML Dersleri - Ders 1 - HTML'ye Giriş ve HTML
+                          Etiketleri</a>
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 2 - font, h Etiketleri ve Renk Kodlarıyla Çalışma</a>
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 3 - img, ol, ul, li Etiketleri</a>
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 4 - ol, ul, li Etiketleri ile Lokanta Menüsü Yapımı</a>
+
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 5 - a Etiketi ile Sayfa Dışı ve Sayfa İçi link</a>
+
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 6 - table, tr, td Etiketleri ile Tablo Oluşturma</a>
+
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 7 - table, tr, td Etiketleri ile Sınıf Listesi Yapımı</a>
+
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 8 - table, tr, td Etiketleri ile Ana Sayfa Yapımı - 1</a>
+
+                      </li>
+                      <li
+                        class="list-group-item d-flex flex-row align-items-center justify-content-between"
+                      >
+                      <a href="" class="textdeco-none">HTML Dersleri - Ders 9 - table, tr, td Etiketleri ile Ana Sayfa Yapımı - 2</a>
+
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <script src="scripts/extra.js"></script>
+    <script src="scripts/bootstrap.min.js"></script>
+  </body>
+</html>
